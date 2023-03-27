@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body style="text-align: center">
+{% load static %}
+<img src="{% static 'img.png' %}" alt="">
+<h2>
+    Add courses that are in current curriculum from Admin page
+</h2>
+<h3>Courses</h3>
+<ul style="list-style: none">
+    {% for course in object_list %}
+        <li>
+            <div>Subject: {{ course.subject }}</div>
+            <div>Teacher: {{ course.teacher }}</div>
+            <div>Room: {{ course.room }}</div>
+            <div>Time: {{ course.time_from }} - {{ course.time_to }}</div>
+        </li>
+    {% empty %}
+        <li>No courses yet.</li>
+    {% endfor %}
+</ul>
+</body>
+</html>
