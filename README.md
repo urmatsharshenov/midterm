@@ -13,5 +13,5 @@ Format
 The list of lessons is typically presented in a table format, with columns for course code and course title. Additional information, such as semester or academic year, may also be included in some cases.
 
 
-![Screenshot](screenshots/Screenshot1.png)
-![Screenshot](screenshots/Screenshot2.png)
+![Screenshot](Screenshot1.png)
+![Screenshot](Screenshot2.png)
