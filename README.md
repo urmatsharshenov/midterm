@@ -11,3 +11,7 @@ The list of lessons can be used by students to get a general overview of the cou
 
 Format
 The list of lessons is typically presented in a table format, with columns for course code and course title. Additional information, such as semester or academic year, may also be included in some cases.
+
+
+![Screenshot](screenshots/Screenshot1.png)
+![Screenshot](screenshots/Screenshot2.png)
